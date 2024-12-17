@@ -7,7 +7,7 @@ class Card:
         self.suit = suit
 
     def get_val_and_suit(self):
-        return self.value, self.suit
+        return f"{self.value}-{self.suit}"
 
     def get_val(self):
         return self.value
